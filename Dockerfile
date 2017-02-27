@@ -12,4 +12,4 @@ COPY logstash.conf /logstash-config/
 
 EXPOSE 5044
 
-CMD ["-f", "/logstash-config/logstash.conf"]
+CMD ["logstash", "-f", "/logstash-config/logstash.conf"]
