@@ -1,5 +1,5 @@
 # This is the official Logstash Image Repository
-FROM docker.elastic.co/logstash/logstash:5.2.1
+FROM docker.elastic.co/logstash/logstash:5.2.2
 MAINTAINER Kevin Gimbel <docker@kevingimbel.com>
 
 # Install beats and elasticsearch plugins
